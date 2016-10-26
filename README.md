@@ -3,9 +3,9 @@ A easy to use wrapper around Facebook SDK. Making permissions / fields constants
 
 After installing with pod ABFacebookSDK <TODO make cocoapod> Setting up is as easy as 1,2,3
 
-1. Create a FB App on developers.facebook.com and add your facebook APP id to your info.plist
+(1) Create a FB App on developers.facebook.com and add your facebook APP id to your info.plist
 
-2. Import <ABFacebookSDK/ABFacebookSDK.h> into your AppDelegate.m file and implement the following two lines
+(2) Import <ABFacebookSDK/ABFacebookSDK.h> into your AppDelegate.m file and implement the following two lines
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [ABFacebookSDK setUpFBAppDelegateWith:application andLaunchOptions:launchOptions];
@@ -16,7 +16,8 @@ After installing with pod ABFacebookSDK <TODO make cocoapod> Setting up is as ea
     return [ABFacebookSDK checkIfUrlHandledByFBForApplication:application openURL:url options:options];
 }
 ```
-3. Login by using ABFacebookSDK's +logIntoFacebookFromController method in your desired controller!
+
+(3) Login by using ABFacebookSDK's +logIntoFacebookFromController method in your desired controller!
 ```objective-c
     [ABFacebookSDK logIntoFacebookFromController:self withHandler:^(id result, NSError *error) {
         
