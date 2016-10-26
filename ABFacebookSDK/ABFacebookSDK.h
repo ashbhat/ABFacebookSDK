@@ -11,6 +11,9 @@
 
 @interface ABFacebookSDK : NSObject
 
++ (void)logIntoFacebookFromController:(id)controller
+                          withHandler:(RequestHandler)handler;
+
 + (BOOL)checkIfUrlHandledByFBForApplication:(id)application openURL:(NSURL *)url options:(id)options;
 
 + (void)setUpFBAppDelegateWith:(id)application
@@ -23,9 +26,6 @@
 + (void)requestPublishPermissions:(NSArray *)publishPermissions
                    fromController:(id)controller
                       withHandler:(RequestHandler)handler;
-
-+ (void)logIntoFacebookFromController:(id)controller
-                          withHandler:(RequestHandler)handler;
 
 + (void)requestMe:(RequestHandler)handler;
 
