@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5E0958B41DC13C05009BE3B7 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0958B31DC13C05009BE3B7 /* Constants.m */; };
+		5E0958BA1DC3D623009BE3B7 /* ABFacebookSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0958B91DC3D623009BE3B7 /* ABFacebookSDK.m */; };
 		5EF8B7A81DC006340043AD88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8B7A71DC006340043AD88 /* main.m */; };
 		5EF8B7AB1DC006340043AD88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8B7AA1DC006340043AD88 /* AppDelegate.m */; };
 		5EF8B7AE1DC006340043AD88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8B7AD1DC006340043AD88 /* ViewController.m */; };
 		5EF8B7B11DC006340043AD88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF8B7AF1DC006340043AD88 /* Main.storyboard */; };
 		5EF8B7B31DC006340043AD88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF8B7B21DC006340043AD88 /* Assets.xcassets */; };
 		5EF8B7B61DC006340043AD88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF8B7B41DC006340043AD88 /* LaunchScreen.storyboard */; };
-		5EF8B7BF1DC006480043AD88 /* ABFacebookSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8B7BE1DC006480043AD88 /* ABFacebookSDK.m */; };
 		E56824C04F856E35AF52C210 /* libPods-ABFacebookSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E582C1D6F0847D7875127ACA /* libPods-ABFacebookSDK.a */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +22,8 @@
 		5E0958B11DC13892009BE3B7 /* ABFacebookSDK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ABFacebookSDK.entitlements; sourceTree = "<group>"; };
 		5E0958B21DC13C05009BE3B7 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		5E0958B31DC13C05009BE3B7 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		5E0958B81DC3D623009BE3B7 /* ABFacebookSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABFacebookSDK.h; path = source/ABFacebookSDK.h; sourceTree = SOURCE_ROOT; };
+		5E0958B91DC3D623009BE3B7 /* ABFacebookSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABFacebookSDK.m; path = source/ABFacebookSDK.m; sourceTree = SOURCE_ROOT; };
 		5EF8B7A31DC006340043AD88 /* ABFacebookSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABFacebookSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF8B7A71DC006340043AD88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EF8B7A91DC006340043AD88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,8 +34,6 @@
 		5EF8B7B21DC006340043AD88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EF8B7B51DC006340043AD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EF8B7B71DC006340043AD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EF8B7BD1DC006480043AD88 /* ABFacebookSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFacebookSDK.h; sourceTree = "<group>"; };
-		5EF8B7BE1DC006480043AD88 /* ABFacebookSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFacebookSDK.m; sourceTree = "<group>"; };
 		64B537748D3CB048B1A009CD /* Pods-ABFacebookSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABFacebookSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABFacebookSDK/Pods-ABFacebookSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		D6305892025752A98C7E5770 /* Pods-ABFacebookSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABFacebookSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABFacebookSDK/Pods-ABFacebookSDK.release.xcconfig"; sourceTree = "<group>"; };
 		E582C1D6F0847D7875127ACA /* libPods-ABFacebookSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABFacebookSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +57,15 @@
 				E582C1D6F0847D7875127ACA /* libPods-ABFacebookSDK.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E0958BB1DC3D627009BE3B7 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				5E0958B81DC3D623009BE3B7 /* ABFacebookSDK.h */,
+				5E0958B91DC3D623009BE3B7 /* ABFacebookSDK.m */,
+			);
+			name = source;
 			sourceTree = "<group>";
 		};
 		5EF8B79A1DC006340043AD88 = {
@@ -90,10 +99,9 @@
 				5EF8B7B41DC006340043AD88 /* LaunchScreen.storyboard */,
 				5EF8B7B71DC006340043AD88 /* Info.plist */,
 				5EF8B7A61DC006340043AD88 /* Supporting Files */,
-				5EF8B7BD1DC006480043AD88 /* ABFacebookSDK.h */,
-				5EF8B7BE1DC006480043AD88 /* ABFacebookSDK.m */,
 				5E0958B21DC13C05009BE3B7 /* Constants.h */,
 				5E0958B31DC13C05009BE3B7 /* Constants.m */,
+				5E0958BB1DC3D627009BE3B7 /* source */,
 			);
 			path = ABFacebookSDK;
 			sourceTree = "<group>";
@@ -245,7 +253,7 @@
 			files = (
 				5E0958B41DC13C05009BE3B7 /* Constants.m in Sources */,
 				5EF8B7AE1DC006340043AD88 /* ViewController.m in Sources */,
-				5EF8B7BF1DC006480043AD88 /* ABFacebookSDK.m in Sources */,
+				5E0958BA1DC3D623009BE3B7 /* ABFacebookSDK.m in Sources */,
 				5EF8B7AB1DC006340043AD88 /* AppDelegate.m in Sources */,
 				5EF8B7A81DC006340043AD88 /* main.m in Sources */,
 			);

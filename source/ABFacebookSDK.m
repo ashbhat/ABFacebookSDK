@@ -15,8 +15,7 @@
     return [[FBSDKApplicationDelegate sharedInstance] application:application
                                                                   openURL:url
                                                         sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
-                                                               annotation:options[UIApplicationOpenURLOptionsAnnotationKey]
-                    ];
+                                                               annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
 }
 
 + (void)setUpFBAppDelegateWith:(id)application

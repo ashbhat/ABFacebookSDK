@@ -1,5 +1,5 @@
 # ABFacebookSDK
-A easy to use wrapper around Facebook SDK. Making permissions / fields constants, easy login, you name it - its there
+A easy to use wrapper around Facebook SDK. Making permissions / fields constants, easy login, you name it - its here
 
 After installing with pod ABFacebookSDK <TODO make cocoapod> Setting up is as easy as 1,2,3
 
